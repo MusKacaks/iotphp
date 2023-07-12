@@ -37,11 +37,11 @@ class Sample {
                 // The ID of the IoT Platform instance. 
                 "iotInstanceId" => "iot-060a4ixm",
                 // The ProductKey of the product. 
-                "productKey" => "j0w3PlAjhJO",
+                "productKey" => "j0w3AdwLNfW",
                 // The message body that you want to send. Encode "hello world" in Base64 as a string. 
                 "messageContent" => "eyJ0ZXN0IjoidGFzayBwdWIgYnJvYWRjYXN0In0=",
                 // The custom topic that is used to publish the message. 
-                "topicFullName" => "/j0w3PlAjhJO/sensor/user/get",
+                "topicFullName" => "/j0w3AdwLNfW/temperature/user/get",
                 // The message sending mode. IoT Platform SDK supports QoS 0 and QoS 1. 
                 "qos" => 0
             ]);
