@@ -32,7 +32,7 @@ class Sample {
      */
     public static function main($args){
         try {
-            $client = self::createClient("LTAI5t6jq2TNDnqLp6MC8azr","S6svMFp0MmNkHRr8CDL6HFs3FmViOR");
+            $client = self::createClient("LTAI5tJimffZQrmuDPamY8U6","lY2LvQeXCsEk7XDWTarItXmrcRtkor");
             $request = new PubRequest([
                 // The ID of the IoT Platform instance. 
                 "iotInstanceId" => "iot-06z01kdwzjqq125",
