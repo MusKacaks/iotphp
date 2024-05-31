@@ -35,13 +35,13 @@ class Sample {
             $client = self::createClient("LTAI5t6jq2TNDnqLp6MC8azr","S6svMFp0MmNkHRr8CDL6HFs3FmViOR");
             $request = new PubRequest([
                 // The ID of the IoT Platform instance. 
-                "iotInstanceId" => "iot-060a4ixm",
+                "iotInstanceId" => "iot-06z01kdwzjqq125",
                 // The ProductKey of the product. 
-                "productKey" => "j0w3AdwLNfW",
+                "productKey" => "k1dbvcFb3rb",
                 // The message body that you want to send. Encode "hello world" in Base64 as a string. 
                 "messageContent" => "eyJ0ZXN0IjoidGFzayBwdWIgYnJvYWRjYXN0In0=",
                 // The custom topic that is used to publish the message. 
-                "topicFullName" => "/j0w3AdwLNfW/temperature/user/get",
+                "topicFullName" => "/k1dbvcFb3rb/Sensor/user/get",
                 // The message sending mode. IoT Platform SDK supports QoS 0 and QoS 1. 
                 "qos" => 0
             ]);
